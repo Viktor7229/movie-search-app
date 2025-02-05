@@ -6,8 +6,8 @@ use GuzzleHttp\Client;
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
-$bearerToken = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkNTk2YmQyYzc2M2U1ZDdiYmQ3OGYzNDYzMjY4MDI5ZiIsIm5iZiI6MTY5OTk2ODE2Ny44ODk5OTk5LCJzdWIiOiI2NTUzNzRhNzkwM2M1MjAwZTFlZmU4MmYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.rzBbGj2BCWL8dgUtusk-y04wN1axh17SrC3-LqoRjjQ';
-
+$config = include(__DIR__ . '/../config.php');
+$bearerToken = $config['api_key'];
 $client = new Client();
 
 if (isset($_GET['details']) && $_GET['details'] === 'true' && isset($_GET['id'])) {
