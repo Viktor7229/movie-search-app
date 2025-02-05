@@ -26,8 +26,6 @@ This is a web-based application that allows users to search for movies, view det
 Set Up the API Key:
 Create a config.php file based on config.example.php and add your API key:
 
-php
-Copy
 <?php
 return [
     'api_key' => 'your_tmdb_api_key_here'
