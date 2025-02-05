@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Here’s a simplified version that focuses on what the app does and how to get it started:
 
@@ -34,3 +35,7 @@ Open in a Browser:
 Navigate to http://localhost:8000 in your web browser.
 
 Once started, you can search for movies, mark them as favorites, and sort them as you explore the application.
+=======
+# MovieSearchApp
+Movie Search App
+>>>>>>> 2367c1fcc372be9c0379c4604f2e4c415f9ccd36
