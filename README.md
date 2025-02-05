@@ -25,14 +25,16 @@ This is a web-based application that allows users to search for movies, view det
 Set Up the API Key:
 Create a config.php file based on config.example.php and add your API key:
 
+2. **Add your API Key:**  
 ```bash
 <?php
 return [
     'api_key' => 'your_tmdb_api_key_here'
 ];
-Start the PHP Server:
-Run the following command:
 
+
+3. **Start the PHP Server:**
+Run the following command:
 ```bash
 php -S localhost:8000
 Open in Your Browser:
