@@ -22,32 +22,31 @@
         <li><strong>User-Friendly Design:</strong> The app works well on both desktop and mobile devices.</li>
       </ul>
     </section>
-     <section>
-      <h2>How to Start</h2>
-      <ol>
-        <li><strong>Clone the Repository:</strong></li>
-        <code>git clone https://github.com/username/movie-search-app.git</code>
-        <code>cd movie-search-app</code>
+    <section>
+  <h2>How to Start</h2>
+  <ol>
+    <li><strong>Clone the Repository:</strong></li>
+    <code>git clone https://github.com/username/movie-search-app.git</code>
+    <code>cd movie-search-app</code>
 
-        <li><strong>Set Up the API Key:</strong></li>
-        <p>Create a <code>config.php</code> file based on <code>config.example.php</code> and add your API key:</p>
-        <pre>
-<code>
-<?php
-return [
-    'api_key' => 'your_tmdb_api_key_here'
-];
-?>
-</code>
-        </pre>
+    <li><strong>Set Up the API Key:</strong></li>
+    <p>Create a <code>config.php</code> file based on <code>config.example.php</code> and add your API key:</p>
+    <pre><code>
+    <?php
+    return [
+        'api_key' => 'your_tmdb_api_key_here'
+    ];
+    ?>
+    </code></pre>
 
-        <li><strong>Start the PHP Server:</strong></li>
-        <code>php -S localhost:8000</code>
+    <li><strong>Start the PHP Server:</strong></li>
+    <code>php -S localhost:8000</code>
 
-        <li><strong>Open in Your Browser:</strong></li>
-        <p>Navigate to <a href="http://localhost:8000/frontend/index.html">http://localhost:8000/frontend/index.html</a>.</p>
-      </ol>
-    </section>
+    <li><strong>Open in Your Browser:</strong></li>
+    <p>Navigate to <a href="http://localhost:8000/frontend/index.html">http://localhost:8000/frontend/index.html</a>.</p>
+  </ol>
+</section>
+
   </main>
 </body>
 </html>
