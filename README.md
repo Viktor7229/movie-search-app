@@ -22,19 +22,31 @@
         <li><strong>User-Friendly Design:</strong> The app works well on both desktop and mobile devices.</li>
       </ul>
     </section>
-    <section>
-      <h2>How to Start the App</h2>
+     <section>
+      <h2>How to Start</h2>
       <ol>
         <li><strong>Clone the Repository:</strong></li>
-        <pre><code>git clone https://github.com/username/movie-search-app.git
-cd movie-search-app</code></pre>
-        <li><strong>Set Up PHP Backend (if needed):</strong> Make sure PHP is installed, and run a local server from the project directory:</li>
-        <pre><code>php -S localhost:8000</code></pre>
-        <li><strong>Open in a Browser:</strong> Navigate to <a href="http://localhost:8000">http://localhost:8000</a> in your web browser.</li>
+        <code>git clone https://github.com/username/movie-search-app.git</code>
+        <code>cd movie-search-app</code>
+
+        <li><strong>Set Up the API Key:</strong></li>
+        <p>Create a <code>config.php</code> file based on <code>config.example.php</code> and add your API key:</p>
+        <pre>
+<code>
+<?php
+return [
+    'api_key' => 'your_tmdb_api_key_here'
+];
+?>
+</code>
+        </pre>
+
+        <li><strong>Start the PHP Server:</strong></li>
+        <code>php -S localhost:8000</code>
+
+        <li><strong>Open in Your Browser:</strong></li>
+        <p>Navigate to <a href="http://localhost:8000/frontend/index.html">http://localhost:8000/frontend/index.html</a>.</p>
       </ol>
-      <div class="note">
-        <p><strong>Note:</strong> Once started, you can search for movies, mark them as favorites, and sort them as you explore the application.</p>
-      </div>
     </section>
   </main>
 </body>
