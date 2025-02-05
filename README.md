@@ -31,7 +31,7 @@ Create a config.php file based on config.example.php and add your API key:
 return [
     'api_key' => 'your_tmdb_api_key_here'
 ];
-php?>
+?>
 
 3. **Start the PHP Server:**
 Run the following command:
