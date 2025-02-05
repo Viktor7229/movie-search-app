@@ -22,20 +22,23 @@ This is a web-based application that allows users to search for movies, view det
    ```bash
    git clone https://github.com/username/movie-search-app.git
    cd movie-search-app
-Set Up the API Key:
-Create a config.php file based on config.example.php and add your API key:
+   ```
 
-2. **Add your API Key:**  
-```bash
-<?php
-return [
-    'api_key' => 'your_tmdb_api_key_here'
-];
-?>
+2. **Set Up the API Key:**  
+   Create a `config.php` file based on `config.example.php` and add your API key:
+   ```php
+   <?php
+   return [
+       'api_key' => 'your_tmdb_api_key_here'
+   ];
+   ?>
+   ```
 
-3. **Start the PHP Server:**
-Run the following command:
-```bash
-php -S localhost:8000
-Open in Your Browser:
-Navigate to http://localhost:8000/frontend/index.html.
+3. **Start the PHP Server:**  
+   Run the following command:
+   ```bash
+   php -S localhost:8000
+   ```
+
+4. **Open in Your Browser:**  
+   Navigate to [http://localhost:8000/frontend/index.html](http://localhost:8000/frontend/index.html)
